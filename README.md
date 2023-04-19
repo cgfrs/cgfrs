@@ -2,7 +2,7 @@
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=4d79ff&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4d79ff&size=35&center=true&vCenter=true&width=1000&lines=HELLO,+MY+NAME+is+Rodrigo;I'm+36+years+old;I+from+Brazil;I+student+Development;Be+welcome!+:%29;follow+me+on+my+social+networks+down+here)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4d79ff&size=35&center=true&vCenter=true&width=1000&lines=Olá,+meu+nome+é+Rodrigo;Tenho+36+anos+de+idade;Sou+do+Brasil;Estudante+de+Desenvolvimento+de+sistemas;seja+bem+vindo!+:%29;Siga+minhas+redes+sociais+a+baixo)](https://git.io/typing-svg)
 
 <div align="center"> 
 <a href="https://instagram.com/rodrig0011" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
