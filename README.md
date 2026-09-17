@@ -101,8 +101,8 @@
 > Atualizada automaticamente a cada 6 horas a partir das minhas atividades públicas no GitHub.
 
 <!--START_SECTION:activity-->
-- 🌿 **17 de set** — Criou uma nova branch em [cgfrs/reppersonal](https://github.com/cgfrs/reppersonal)
 - 💻 **17 de set** — Atualizou código em [cgfrs/cgfrs](https://github.com/cgfrs/cgfrs)
+- 🌿 **17 de set** — Criou uma nova branch em [cgfrs/reppersonal](https://github.com/cgfrs/reppersonal)
 <!--END_SECTION:activity-->
 
 ---
