@@ -1,20 +1,22 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=220&section=header&text=Rodrigo%20Azevedo&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=Analista%20de%20Implanta%C3%A7%C3%A3o%20Sankhya%20%7C%20Oracle%20SQL%20%7C%20Dashboards%20%7C%20Automa%C3%A7%C3%A3o%20%7C%20IA&descAlignY=58" />
+  <img width="100%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/rodrigo-hero.svg" alt="Rodrigo Azevedo — Analista de Implantação Sankhya" />
 </div>
 
-<div align="center">
+<br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1300&color=60A5FA&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+meu+perfil!;Implanta%C3%A7%C3%A3o+Sankhya+e+suporte+ao+neg%C3%B3cio;Dashboards%2C+Oracle+SQL+e+automa%C3%A7%C3%B5es;IA+aplicada+a+problemas+reais)](https://git.io/typing-svg)
+## Meu trabalho começa antes do SQL
 
-</div>
+> **Entender o processo primeiro. Mexer no sistema depois.**
 
-## 👨‍💻 Sobre mim
+Quando uma rotina da operação não encaixa bem no ERP, é aí que eu gosto de entrar.
 
-- 🇧🇷 Belém/PA
-- 💼 **Analista de Implantação Sankhya**
-- 🧠 **ERP, Oracle SQL, dashboards, automação e IA aplicada**
-- 🎯 Tecnologia conectando processos, dados, negócio e experiência do usuário
-- 📚 Documentando projetos e evolução prática no GitHub
+Eu tento descobrir **onde o processo realmente trava**, entender o que o usuário precisa no dia a dia e então transformar isso em configuração, regra, consulta, dashboard ou automação dentro do Sankhya.
+
+| eu observo | eu traduzo | eu entrego |
+| --- | --- | --- |
+| processo, operação e dor do usuário | regra de negócio, Sankhya e Oracle SQL | fluxo mais simples, informação clara e menos trabalho manual |
+
+`agora:` Sankhya ERP · Oracle SQL · Dashboards · Automação · IA aplicada
 
 ---
 
@@ -119,5 +121,5 @@
 </div>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:1D4ED8,100:0F172A&height=140&section=footer" />
+  <sub>Belém/PA · construindo soluções entre processo, ERP e dados.</sub>
 </div>
