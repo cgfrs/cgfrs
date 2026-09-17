@@ -1,0 +1,30 @@
+<svg width="600" height="210" viewBox="0 0 600 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#111C33"/>
+    </linearGradient>
+    <linearGradient id="line" x1="30" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: 50% 50%; }
+    .slide { animation: slide 5s linear infinite; }
+    @keyframes pulse { 0%,100%{opacity:.55} 50%{opacity:1} }
+    @keyframes slide { 0%{transform:translateX(-160px);opacity:0} 18%{opacity:.8} 80%{opacity:.8} 100%{transform:translateX(700px);opacity:0} }
+  </style>
+  <rect x="1" y="1" width="598" height="208" rx="18" fill="url(#bg)" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="598" height="5" rx="2.5" fill="url(#line)" class="pulse"/>
+  <rect x="-150" y="1" width="120" height="5" rx="2.5" fill="#FFFFFF" opacity=".7" class="slide" filter="url(#glow)"/>
+  <text x="34" y="54" fill="#60A5FA" font-family="Arial, sans-serif" font-size="15" font-weight="700">PORTFÓLIO PROFISSIONAL</text>
+  <text x="34" y="88" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="27" font-weight="700">Rodrigo Azevedo</text>
+  <text x="34" y="118" fill="#94A3B8" font-family="Arial, sans-serif" font-size="16">Sankhya · Oracle SQL · Dashboards · Automação · IA</text>
+  <rect x="34" y="145" width="116" height="30" rx="15" fill="#172554" stroke="#2563EB"/>
+  <text x="54" y="165" fill="#BFDBFE" font-family="Arial, sans-serif" font-size="13" font-weight="700">VER PROJETO →</text>
+  <circle cx="520" cy="104" r="45" fill="#172554" stroke="#2563EB" stroke-width="2" class="pulse"/>
+  <path d="M500 111h40M500 98h28M500 124h34" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+</svg>
