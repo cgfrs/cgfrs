@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "15 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - ".github/workflows/recent-activity.yml"
 
 permissions:
   contents: write
@@ -45,7 +51,7 @@ jobs:
               }).format(new Date(event.created_at)).replace('.', '');
 
               let text = '';
-              let key = `${event.type}-${repo}`;
+              const key = `${event.type}-${repo}`;
 
               switch (event.type) {
                 case 'PushEvent':
