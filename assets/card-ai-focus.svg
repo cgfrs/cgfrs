@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#581c87"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="420" height="180" rx="18" fill="url(#g)"/>
+  <rect x="1" y="1" width="418" height="178" rx="17" fill="none" stroke="#c084fc" stroke-opacity=".35"/>
+  <circle cx="350" cy="34" r="8" fill="#a855f7" filter="url(#glow)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="28" y="46" fill="#d8b4fe" font-family="Arial, sans-serif" font-size="14" font-weight="700">ÁREA DE FOCO</text>
+  <text x="28" y="82" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">Automação &amp; IA</text>
+  <text x="28" y="112" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">Processos • Agentes • Produtividade</text>
+  <text x="28" y="138" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">IA aplicada a problemas reais</text>
+  <text x="28" y="162" fill="#c084fc" font-family="Arial, sans-serif" font-size="13">Ver showcase →</text>
+</svg>
