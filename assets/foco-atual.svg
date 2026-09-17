@@ -1,0 +1,69 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .border { stroke-dasharray: 16 10; animation: dash 6s linear infinite; }
+      .pulse1 { animation: pulse 2.4s ease-in-out infinite; transform-origin: 122px 142px; }
+      .pulse2 { animation: pulse 2.4s ease-in-out .45s infinite; transform-origin: 300px 142px; }
+      .pulse3 { animation: pulse 2.4s ease-in-out .9s infinite; transform-origin: 484px 142px; }
+      .pulse4 { animation: pulse 2.4s ease-in-out 1.35s infinite; transform-origin: 676px 142px; }
+      .scan { animation: scan 4s ease-in-out infinite; }
+      @keyframes dash { to { stroke-dashoffset: -52; } }
+      @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.92); } 50% { opacity:1; transform:scale(1.08); } }
+      @keyframes scan { 0% { transform:translateX(-260px); opacity:0; } 20% { opacity:.35; } 50% { opacity:.6; } 80% { opacity:.35; } 100% { transform:translateX(980px); opacity:0; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="248" rx="18" fill="url(#bg)" stroke="#30363D" stroke-width="2"/>
+  <rect class="border" x="10" y="10" width="880" height="230" rx="14" stroke="url(#accent)" stroke-width="2" opacity="0.7"/>
+
+  <g class="scan" opacity="0.5">
+    <rect x="0" y="8" width="110" height="234" fill="url(#accent)" opacity="0.14" transform="skewX(-16)"/>
+  </g>
+
+  <text x="50" y="55" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">🚀 Foco atual</text>
+  <text x="50" y="84" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">Tecnologia aplicada a problemas reais de negócio</text>
+
+  <g class="pulse1">
+    <circle cx="122" cy="145" r="28" fill="#0EA5E9" opacity="0.13"/>
+    <circle cx="122" cy="145" r="7" fill="#38BDF8" filter="url(#glow)"/>
+  </g>
+  <text x="90" y="192" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Sankhya</text>
+
+  <g class="pulse2">
+    <circle cx="300" cy="145" r="28" fill="#EF4444" opacity="0.13"/>
+    <circle cx="300" cy="145" r="7" fill="#F87171" filter="url(#glow)"/>
+  </g>
+  <text x="257" y="192" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Oracle SQL</text>
+
+  <g class="pulse3">
+    <circle cx="484" cy="145" r="28" fill="#22C55E" opacity="0.13"/>
+    <circle cx="484" cy="145" r="7" fill="#4ADE80" filter="url(#glow)"/>
+  </g>
+  <text x="439" y="192" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Dashboards</text>
+
+  <g class="pulse4">
+    <circle cx="676" cy="145" r="28" fill="#8B5CF6" opacity="0.13"/>
+    <circle cx="676" cy="145" r="7" fill="#A78BFA" filter="url(#glow)"/>
+  </g>
+  <text x="627" y="192" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">Automação + IA</text>
+
+  <text x="816" y="146" fill="#60A5FA" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">→</text>
+  <text x="816" y="178" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle">evoluindo</text>
+</svg>
