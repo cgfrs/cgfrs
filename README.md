@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=220&section=header&text=Rodrigo%20Azevedo&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=Consultor%20de%20Implanta%C3%A7%C3%A3o%20%7C%20Sankhya%20%7C%20SQL%20%7C%20Dashboards%20%7C%20Automa%C3%A7%C3%A3o&descAlignY=58" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=220&section=header&text=Rodrigo%20Azevedo&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=Analista%20de%20Implanta%C3%A7%C3%A3o%20Sankhya%20%7C%20Oracle%20SQL%20%7C%20Dashboards%20%7C%20Automa%C3%A7%C3%A3o%20%7C%20IA&descAlignY=58" />
 </div>
 
 <div align="center">
@@ -11,7 +11,7 @@
 ## 👨‍💻 Sobre mim
 
 - 🇧🇷 Belém/PA
-- 💼 **Consultor / Analista de Implantação com foco em Sankhya**
+- 💼 **Analista de Implantação Sankhya**
 - 🧠 **ERP, Oracle SQL, dashboards, automação e IA aplicada**
 - 🎯 Tecnologia conectando processos, dados, negócio e experiência do usuário
 - 📚 Documentando projetos e evolução prática no GitHub
@@ -40,12 +40,23 @@
 
 ---
 
-## 🛠️ Projetos em andamento
+## ⭐ Projetos em destaque
+
+<div align="center">
+  <a href="https://github.com/cgfrs/portifolio">
+    <img width="49%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/card-portfolio.svg" alt="Portfólio profissional" />
+  </a>
+  <a href="https://github.com/cgfrs/project-for-my-Job">
+    <img width="49%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/card-sankhya-cases.svg" alt="Sankhya ERP Case Studies" />
+  </a>
+</div>
+
+### Em construção contínua
 
 - 📦 Implantação e suporte em ambientes **Sankhya**
 - 📊 Dashboards e interfaces para **Venda Assistida, RMA e rotinas operacionais**
 - 🤖 Projetos com **automação e IA aplicada**
-- 🧪 Repositórios para documentar testes, soluções e aprendizados
+- 🧪 Documentação de soluções, testes e aprendizados
 
 ---
 
