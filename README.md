@@ -16,33 +16,24 @@ Eu tento descobrir **onde o processo realmente trava**, entender o que o usuári
 | --- | --- | --- |
 | processo, operação e dor do usuário | regra de negócio, Sankhya e Oracle SQL | fluxo mais simples, informação clara e menos trabalho manual |
 
-`agora:` Sankhya ERP · Oracle SQL · Dashboards · Automação · IA aplicada
+---
+
+## Na bancada agora
+
+<div align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/bancada-atual.svg" alt="Ferramentas e frentes atuais de trabalho" />
+</div>
+
+Hoje meu trabalho passa principalmente por quatro frentes:
+
+- **Sankhya** para implantação, aderência e desenho de processo;
+- **Oracle SQL** para consulta, diagnóstico e entendimento do dado;
+- **Dashboards e interfaces** quando a informação precisa chegar melhor ao usuário;
+- **Automação e IA** quando existe repetição demais e decisão manual demais.
 
 ---
 
-## 🚀 Stack e foco atual
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,js,html,css,nodejs,react" />
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Sankhya-ERP-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Oracle-SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dashboards-Data-0EA5E9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-Processos-16A34A?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/IA-Aplicada-8B5CF6?style=for-the-badge" />
-</div>
-
-<br>
-
-<div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/foco-atual.svg" alt="Foco profissional atual" />
-</div>
-
----
-
-## 🧭 Áreas de especialidade
+## Onde estou aprofundando
 
 <div align="center">
   <a href="https://github.com/cgfrs/cgfrs/blob/main/showcase/sankhya-erp.md">
@@ -56,9 +47,11 @@ Eu tento descobrir **onde o processo realmente trava**, entender o que o usuári
   </a>
 </div>
 
+Não estou tentando aprender tecnologia por tecnologia. Estou organizando meu estudo em torno de **problemas que encontro no trabalho** e do que pode melhorar a operação de verdade.
+
 ---
 
-## ⭐ Projetos em destaque
+## Casos que viraram laboratório
 
 <div align="center">
   <a href="https://github.com/cgfrs/portifolio">
@@ -69,38 +62,30 @@ Eu tento descobrir **onde o processo realmente trava**, entender o que o usuári
   </a>
 </div>
 
-### Em construção contínua
+Alguns exemplos do tipo de problema que venho transformando em estudo e portfólio:
 
-- 📦 Implantação e suporte em ambientes **Sankhya**
-- 📊 Dashboards e interfaces para **Venda Assistida, RMA e rotinas operacionais**
-- 🤖 Projetos com **automação e IA aplicada**
-- 🧪 Documentação de soluções, testes e aprendizados
-
----
-
-## 🐍 Minhas contribuições
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake.svg">
-  <img alt="Animação das contribuições" src="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake-dark.svg">
-</picture>
+| cenário | pergunta que guia o trabalho |
+| --- | --- |
+| Venda Assistida | como reduzir atrito para localizar e lançar o produto certo? |
+| RMA / Garantias | como acompanhar o processo sem perder prazo, etapa e contexto? |
+| Base Oracle | como limpar uma base com segurança sem quebrar integridade e rastreabilidade? |
+| Dashboards | como mostrar só o que o usuário realmente precisa para agir? |
 
 ---
 
-## 📈 GitHub em números
+## Meu jeito de trabalhar
 
-<div align="center">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cgfrs&theme=github_dark" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cgfrs&theme=github_dark" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cgfrs&theme=github_dark" />
-</div>
+**1.** Primeiro eu tento entender a rotina como ela acontece de verdade.  
+**2.** Depois separo problema de processo, problema de dado e problema de sistema.  
+**3.** Só então escolho a solução técnica.
+
+Esse cuidado evita uma coisa que eu tento fugir sempre: **automatizar um processo ruim e só fazer o erro acontecer mais rápido.**
 
 ---
 
-## 🔥 Atividade recente
+## Últimos movimentos
 
-> Atualizada automaticamente a cada 6 horas a partir das minhas atividades públicas no GitHub.
+Aqui eu deixo o próprio GitHub registrar o que venho mexendo recentemente. A lista abaixo é atualizada automaticamente.
 
 <!--START_SECTION:activity-->
 - 💻 **17 de set** — Atualizou código em [cgfrs/cgfrs](https://github.com/cgfrs/cgfrs)
@@ -109,17 +94,11 @@ Eu tento descobrir **onde o processo realmente trava**, entender o que o usuári
 
 ---
 
-## 🌐 Contato
+## Onde me encontrar
+
+**LinkedIn:** [linkedin.com/in/rodrigo-silva-de-azevedo-8b457a1a0](https://www.linkedin.com/in/rodrigo-silva-de-azevedo-8b457a1a0/)  
+**E-mail:** [cgf.rodrigo@gmail.com](mailto:cgf.rodrigo@gmail.com)
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/rodrigo-silva-de-azevedo-8b457a1a0/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:cgf.rodrigo@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cgfrs&label=Visualiza%C3%A7%C3%B5es&color=2563EB&style=for-the-badge" />
-</div>
-
-<div align="center">
-  <sub>Belém/PA · construindo soluções entre processo, ERP e dados.</sub>
+  <sub>Belém/PA · processo primeiro, sistema depois.</sub>
 </div>
