@@ -40,6 +40,22 @@
 
 ---
 
+## 🧭 Áreas de especialidade
+
+<div align="center">
+  <a href="https://github.com/cgfrs/cgfrs/blob/main/showcase/sankhya-erp.md">
+    <img width="32%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/card-sankhya-focus.svg" alt="Sankhya ERP" />
+  </a>
+  <a href="https://github.com/cgfrs/cgfrs/blob/main/showcase/oracle-sql.md">
+    <img width="32%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/card-oracle-focus.svg" alt="Oracle SQL" />
+  </a>
+  <a href="https://github.com/cgfrs/cgfrs/blob/main/showcase/automacao-ia.md">
+    <img width="32%" src="https://raw.githubusercontent.com/cgfrs/cgfrs/main/assets/card-ai-focus.svg" alt="Automação e IA" />
+  </a>
+</div>
+
+---
+
 ## ⭐ Projetos em destaque
 
 <div align="center">
