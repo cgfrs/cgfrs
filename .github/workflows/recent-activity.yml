@@ -1,0 +1,122 @@
+name: Update recent activity
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update recent GitHub activity
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const username = 'cgfrs';
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username,
+              per_page: 20
+            });
+
+            const items = [];
+            const seen = new Set();
+
+            for (const event of events) {
+              if (items.length >= 6) break;
+
+              const repo = event.repo?.name;
+              if (!repo) continue;
+
+              const repoUrl = `https://github.com/${repo}`;
+              const date = new Intl.DateTimeFormat('pt-BR', {
+                day: '2-digit',
+                month: 'short',
+                timeZone: 'America/Belem'
+              }).format(new Date(event.created_at)).replace('.', '');
+
+              let text = '';
+              let key = `${event.type}-${repo}`;
+
+              switch (event.type) {
+                case 'PushEvent':
+                  text = `💻 **${date}** — Atualizou código em [${repo}](${repoUrl})`;
+                  break;
+                case 'CreateEvent':
+                  if (event.payload?.ref_type === 'repository') {
+                    text = `✨ **${date}** — Criou o repositório [${repo}](${repoUrl})`;
+                  } else if (event.payload?.ref_type === 'branch') {
+                    text = `🌿 **${date}** — Criou uma nova branch em [${repo}](${repoUrl})`;
+                  }
+                  break;
+                case 'PullRequestEvent': {
+                  const pr = event.payload?.pull_request;
+                  if (pr?.html_url) {
+                    text = `🔀 **${date}** — ${event.payload.action === 'opened' ? 'Abriu' : 'Atualizou'} um Pull Request em [${repo}](${pr.html_url})`;
+                  }
+                  break;
+                }
+                case 'IssuesEvent': {
+                  const issue = event.payload?.issue;
+                  if (issue?.html_url) {
+                    text = `🧩 **${date}** — ${event.payload.action === 'opened' ? 'Abriu' : 'Atualizou'} uma issue em [${repo}](${issue.html_url})`;
+                  }
+                  break;
+                }
+                case 'ReleaseEvent':
+                  text = `🚀 **${date}** — Publicou uma release em [${repo}](${repoUrl}/releases)`;
+                  break;
+                case 'WatchEvent':
+                  text = `⭐ **${date}** — Marcou [${repo}](${repoUrl}) com uma estrela`;
+                  break;
+                case 'ForkEvent':
+                  text = `🍴 **${date}** — Criou um fork de [${repo}](${repoUrl})`;
+                  break;
+              }
+
+              if (!text || seen.has(key)) continue;
+              seen.add(key);
+              items.push(`- ${text}`);
+            }
+
+            const fallback = '- 🔄 A atividade recente será atualizada automaticamente pelo GitHub Actions.';
+            const activity = items.length ? items.join('\n') : fallback;
+
+            const start = '<!--START_SECTION:activity-->';
+            const end = '<!--END_SECTION:activity-->';
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+
+            if (!readme.includes(start) || !readme.includes(end)) {
+              core.setFailed('Marcadores da seção de atividade não encontrados no README.md');
+              return;
+            }
+
+            const updated = readme.replace(
+              new RegExp(`${start}[\\s\\S]*?${end}`),
+              `${start}\n${activity}\n${end}`
+            );
+
+            fs.writeFileSync(readmePath, updated);
+
+      - name: Commit updated activity
+        run: |
+          if git diff --quiet README.md; then
+            echo "Nenhuma mudança de atividade."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update recent profile activity"
+          git push
