@@ -88,6 +88,7 @@ Esse cuidado evita uma coisa que eu tento fugir sempre: **automatizar um process
 Aqui eu deixo o próprio GitHub registrar o que venho mexendo recentemente. A lista abaixo é atualizada automaticamente.
 
 <!--START_SECTION:activity-->
+- 🌿 **17 de set** — Criou uma nova branch em [cgfrs/portifolio](https://github.com/cgfrs/portifolio)
 - 💻 **17 de set** — Atualizou código em [cgfrs/cgfrs](https://github.com/cgfrs/cgfrs)
 - 🌿 **17 de set** — Criou uma nova branch em [cgfrs/reppersonal](https://github.com/cgfrs/reppersonal)
 <!--END_SECTION:activity-->
