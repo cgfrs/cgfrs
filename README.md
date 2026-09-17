@@ -1,109 +1,113 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:00C2FF,50:2563EB,100:7C3AED&section=header" />
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=220&section=header&text=Rodrigo%20Azevedo&fontSize=42&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=Consultor%20de%20Implanta%C3%A7%C3%A3o%20%7C%20Sankhya%20%7C%20SQL%20%7C%20Dashboards%20%7C%20Automa%C3%A7%C3%A3o&descAlignY=58" />
+</div>
 
 <div align="center">
 
-# 👋 Olá, eu sou o Rodrigo Azevedo
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1300&color=60A5FA&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+meu+perfil!;Hoje+atuo+com+implanta%C3%A7%C3%A3o+Sankhya+e+suporte+ao+neg%C3%B3cio;Crio+dashboards%2C+queries+SQL+e+automa%C3%A7%C3%B5es+para+resolver+problemas+reais;Tamb%C3%A9m+estou+explorando+IA+aplicada%2C+produtividade+e+projetos+digitais)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=900&lines=Consultor+de+Implanta%C3%A7%C3%A3o+ERP;Ecossistema+Sankhya+%7C+Oracle+SQL;Dashboards+%7C+Automa%C3%A7%C3%A3o+%7C+Integra%C3%A7%C3%B5es;Tecnologia+aplicada+a+processos+de+neg%C3%B3cio)](https://git.io/typing-svg)
+</div>
 
-<p>
-  <a href="https://www.linkedin.com/in/rodrigo-silva-de-azevedo-8b457a1a0/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:cgf.rodrigo@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/rodrig0011">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
+## 👨‍💻 Sobre mim
 
+- 🇧🇷 Brasileiro, de **Belém/PA**
+- 💼 Atuação atual: **Consultor / Analista de Implantação com foco em Sankhya**
+- 🧠 Interesses principais: **ERP, Oracle SQL, dashboards, automação, IA aplicada e melhoria de processos**
+- 🎯 Objetivo: construir soluções práticas que unam **negócio + tecnologia + experiência do usuário**
+- 📚 Em evolução constante, documentando projetos reais e aprendizados no GitHub
+
+---
+
+## 🌐 Conecte-se comigo
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/rodrigo-silva-de-azevedo-8b457a1a0/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:cgf.rodrigo@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://instagram.com/rodrig0011" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.youtube.com/channel/UC2o0gAPPXmuMXIqRyVS_x8Q" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 </div>
 
 ---
 
-## 🚀 Sobre mim
-
-Sou profissional de tecnologia com foco em **implantação de ERP, melhoria de processos e construção de soluções no ecossistema Sankhya**.
-
-- 🧩 Transformo necessidades de negócio em soluções práticas dentro do ERP.
-- 🗄️ Trabalho com **Oracle SQL**, análise de dados e regras de negócio.
-- 📊 Desenvolvo **dashboards e interfaces** com HTML, CSS e JavaScript.
-- ⚙️ Tenho foco em **automação, integrações e produtividade**.
-- 🤖 Estou aprofundando o uso de **IA aplicada ao desenvolvimento e aos processos empresariais**.
-- 🌱 Uso o GitHub como linha do tempo da minha evolução técnica e dos meus projetos.
-
----
-
-## 🧰 Stack & ferramentas
+## 🚀 Stack atual
 
 <div align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,js,html,css,nodejs,react" />
+</div>
 
-![Sankhya](https://img.shields.io/badge/Sankhya-ERP-5B45FF?style=for-the-badge)
-![Oracle](https://img.shields.io/badge/Oracle_SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
-![AI](https://img.shields.io/badge/IA_Aplicada-0D1117?style=for-the-badge&logo=openai&logoColor=white)
-
+<div align="center">
+  <img src="https://img.shields.io/badge/Sankhya-ERP-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Oracle-SQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dashboards-Data%20Visualization-0EA5E9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Automa%C3%A7%C3%A3o-Processos-16A34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IA-Aplicada-8B5CF6?style=for-the-badge" />
 </div>
 
 ---
 
-## 💡 O que estou construindo
+## 🛠️ O que estou construindo hoje
 
-```text
-ERP & Sankhya       → implantação, parametrizações e melhoria de processos
-Oracle SQL          → consultas, validações e rotinas para dados de negócio
-Dashboards          → interfaces modernas para operação e tomada de decisão
-Automação & IA      → agentes, produtividade e aceleração de tarefas técnicas
-Git & GitHub        → versionamento, documentação e evolução contínua
-```
+- 📦 Projetos voltados para **implantação e suporte em ambientes Sankhya**
+- 📊 Dashboards e interfaces para **Venda Assistida, RMA e rotinas operacionais**
+- 🤖 Agentes e estruturas pessoais para **finanças, nutrição e organização de projetos**
+- 🧪 Repositórios para documentar **evolução prática**, testes e aprendizados
 
-> Alguns projetos profissionais permanecem privados por envolverem processos e informações de clientes. O perfil público mostra minha evolução técnica, estudos e projetos que podem ser compartilhados.
+---
+
+## 🐍 Animação de contribuições
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake.svg">
+  <img alt="Animação da cobra de contribuições do GitHub" src="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 ---
 
 ## 📈 GitHub em números
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=cgfrs&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=7C3AED&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cgfrs&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=cgfrs&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=60A5FA&icon_color=38BDF8&text_color=CBD5E1&bg_color=0D1117&rank_icon=github" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cgfrs&layout=compact&hide_border=true&title_color=60A5FA&text_color=CBD5E1&bg_color=0D1117&langs_count=8" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=cgfrs&hide_border=true&background=00000000&ring=58A6FF&fire=7C3AED&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cgfrs&theme=github_dark" />
+</div>
+
+<div align="center">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cgfrs&theme=github_dark" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cgfrs&theme=github_dark" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cgfrs&theme=github_dark" />
+</div>
+
+<div align="center">
+  <img width="60%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=cgfrs&theme=github_dark&utcOffset=-3" />
 </div>
 
 ---
 
-## ⚡ Atividade
+## 🔥 Atividade recente
 
-[![Rodrigo's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=cgfrs&bg_color=00000000&color=8B949E&line=58A6FF&point=7C3AED&area=true&hide_border=true)](https://github.com/cgfrs)
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cgfrs&bg_color=0d1117&color=cbd5e1&line=3b82f6&point=60a5fa&area=true&hide_border=true" />
+</div>
 
 ---
 
-## 🐍 Contribuições em movimento
+## 📌 Destaques do perfil
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake.svg" />
-    <img alt="Animação das contribuições do GitHub" src="https://raw.githubusercontent.com/cgfrs/cgfrs/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
+- ✅ Perfil atualizado com foco no seu momento profissional atual
+- ✅ Visual mais moderno, com animações e blocos bem organizados
+- ✅ Indicadores mais úteis para destacar sua evolução no GitHub
+- ✅ Base pronta para futuramente adicionar **projetos em destaque** com mais força de portfólio
 
 ---
 
 <div align="center">
-
-### 🎯 Tecnologia com propósito: entender o processo, resolver o problema e deixar a solução melhor do que encontrei.
-
-<img src="https://komarev.com/ghpvc/?username=cgfrs&style=for-the-badge&color=2563EB&label=VISITAS+AO+PERFIL" />
-
+  <img src="https://komarev.com/ghpvc/?username=cgfrs&label=Visualiza%C3%A7%C3%B5es%20do%20perfil&color=2563EB&style=for-the-badge" />
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7C3AED,50:2563EB,100:00C2FF&section=footer" />
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:1D4ED8,100:0F172A&height=140&section=footer" />
+</div>
