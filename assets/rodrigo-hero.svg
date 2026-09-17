@@ -1,0 +1,72 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#0D172A"/>
+      <stop offset="1" stop-color="#101D2F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="104" y1="291" x2="1090" y2="291" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#21304A" stroke-width="1" opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="390" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="390" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="23" stroke="#273449" stroke-width="2"/>
+
+  <text x="72" y="67" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">CGFRS / PROFILE</text>
+  <circle cx="1082" cy="53" r="5" fill="#22C55E"><animate attributeName="opacity" values="1;.35;1" dur="2.2s" repeatCount="indefinite"/></circle>
+  <text x="1097" y="59" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">ONLINE</text>
+
+  <text x="72" y="143" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">Rodrigo Azevedo</text>
+  <text x="74" y="184" fill="#93C5FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="600">Analista de Implantação Sankhya</text>
+
+  <text x="74" y="226" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">Eu trabalho no espaço entre o que a operação precisa e o que o sistema consegue entregar.</text>
+
+  <text x="1000" y="183" fill="#64748B" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">BELÉM • PA</text>
+  <text x="1000" y="207" fill="#94A3B8" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">ERP / SQL / UX / IA</text>
+
+  <path d="M124 301 H1072" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M124 301 H1072" stroke="url(#line)" stroke-width="2" stroke-linecap="round" opacity="0.95"/>
+
+  <circle r="6" fill="#F8FAFC" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M124 301 H1072"/>
+  </circle>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="middle">
+    <g transform="translate(124 301)">
+      <circle r="16" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+      <circle r="5" fill="#38BDF8"><animate attributeName="r" values="5;8;5" dur="2.3s" repeatCount="indefinite"/></circle>
+      <text y="45" fill="#BAE6FD">OPERAÇÃO</text>
+    </g>
+    <g transform="translate(360 301)">
+      <circle r="16" fill="#0F172A" stroke="#60A5FA" stroke-width="2"/>
+      <circle r="5" fill="#60A5FA"><animate attributeName="r" values="5;8;5" dur="2.7s" begin=".4s" repeatCount="indefinite"/></circle>
+      <text y="45" fill="#BFDBFE">PROCESSO</text>
+    </g>
+    <g transform="translate(598 301)">
+      <circle r="18" fill="#0F172A" stroke="#3B82F6" stroke-width="2.5"/>
+      <circle r="6" fill="#3B82F6" filter="url(#glow)"><animate attributeName="opacity" values="1;.45;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text y="45" fill="#93C5FD" font-weight="700">SANKHYA</text>
+    </g>
+    <g transform="translate(836 301)">
+      <circle r="16" fill="#0F172A" stroke="#6366F1" stroke-width="2"/>
+      <circle r="5" fill="#6366F1"><animate attributeName="r" values="5;8;5" dur="2.5s" begin=".7s" repeatCount="indefinite"/></circle>
+      <text y="45" fill="#C7D2FE">DADOS</text>
+    </g>
+    <g transform="translate(1072 301)">
+      <circle r="16" fill="#0F172A" stroke="#8B5CF6" stroke-width="2"/>
+      <circle r="5" fill="#8B5CF6"><animate attributeName="r" values="5;8;5" dur="2.1s" begin="1s" repeatCount="indefinite"/></circle>
+      <text y="45" fill="#DDD6FE">AUTOMAÇÃO</text>
+    </g>
+  </g>
+</svg>
