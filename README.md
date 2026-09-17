@@ -71,9 +71,11 @@
 
 ## 🔥 Atividade recente
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cgfrs&bg_color=0d1117&color=cbd5e1&line=3b82f6&point=60a5fa&area=true&hide_border=true" />
-</div>
+> Atualizada automaticamente a cada 6 horas a partir das minhas atividades públicas no GitHub.
+
+<!--START_SECTION:activity-->
+- 🔄 Sincronizando atividade recente...
+<!--END_SECTION:activity-->
 
 ---
 
