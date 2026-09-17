@@ -1,0 +1,49 @@
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="90" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="248" rx="20" fill="url(#bg)" stroke="#263244" stroke-width="2"/>
+  <text x="46" y="52" fill="#E5E7EB" font-size="23" font-family="Segoe UI, Arial, sans-serif" font-weight="700">na bancada agora</text>
+  <text x="46" y="80" fill="#7F8EA3" font-size="14" font-family="Segoe UI, Arial, sans-serif">o que estou usando para transformar processo em solução</text>
+
+  <path d="M105 151H1092" stroke="#253247" stroke-width="4" stroke-linecap="round"/>
+  <path d="M105 151H1092" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-dasharray="180 820" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="1000;0" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g>
+      <circle cx="145" cy="151" r="10" fill="#38BDF8"/>
+      <text x="112" y="118" fill="#F8FAFC" font-size="18" font-weight="700">Sankhya</text>
+      <text x="92" y="188" fill="#94A3B8" font-size="13">implantação · aderência</text>
+    </g>
+    <g>
+      <circle cx="425" cy="151" r="10" fill="#60A5FA"/>
+      <text x="390" y="118" fill="#F8FAFC" font-size="18" font-weight="700">Oracle</text>
+      <text x="355" y="188" fill="#94A3B8" font-size="13">consulta · diagnóstico</text>
+    </g>
+    <g>
+      <circle cx="705" cy="151" r="10" fill="#818CF8"/>
+      <text x="657" y="118" fill="#F8FAFC" font-size="18" font-weight="700">Interface</text>
+      <text x="632" y="188" fill="#94A3B8" font-size="13">dashboard · experiência</text>
+    </g>
+    <g>
+      <circle cx="985" cy="151" r="10" fill="#A78BFA"/>
+      <text x="930" y="118" fill="#F8FAFC" font-size="18" font-weight="700">Automação</text>
+      <text x="919" y="188" fill="#94A3B8" font-size="13">IA · menos repetição</text>
+    </g>
+  </g>
+</svg>
