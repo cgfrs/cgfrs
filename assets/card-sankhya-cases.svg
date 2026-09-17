@@ -1,0 +1,30 @@
+<svg width="600" height="210" viewBox="0 0 600 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="600" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#10251E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="30" y1="0" x2="570" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset=".5" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .pulse { animation: pulse 3.5s ease-in-out infinite; transform-origin: 50% 50%; }
+    .slide { animation: slide 5.5s linear infinite; }
+    @keyframes pulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+    @keyframes slide { 0%{transform:translateX(-160px);opacity:0} 18%{opacity:.8} 80%{opacity:.8} 100%{transform:translateX(700px);opacity:0} }
+  </style>
+  <rect x="1" y="1" width="598" height="208" rx="18" fill="url(#bg)" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="598" height="5" rx="2.5" fill="url(#line)" class="pulse"/>
+  <rect x="-150" y="1" width="120" height="5" rx="2.5" fill="#FFFFFF" opacity=".7" class="slide" filter="url(#glow)"/>
+  <text x="34" y="54" fill="#34D399" font-family="Arial, sans-serif" font-size="15" font-weight="700">SANKHYA ERP · CASE STUDIES</text>
+  <text x="34" y="88" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="27" font-weight="700">Processos que viram solução</text>
+  <text x="34" y="118" fill="#94A3B8" font-family="Arial, sans-serif" font-size="16">Venda Assistida · RMA · Oracle · Segurança de dados</text>
+  <rect x="34" y="145" width="116" height="30" rx="15" fill="#052E2B" stroke="#14B8A6"/>
+  <text x="54" y="165" fill="#99F6E4" font-family="Arial, sans-serif" font-size="13" font-weight="700">VER CASES →</text>
+  <circle cx="520" cy="104" r="45" fill="#052E2B" stroke="#14B8A6" stroke-width="2" class="pulse"/>
+  <path d="M500 91h40v28h-40zM509 84h22M510 128h20" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
