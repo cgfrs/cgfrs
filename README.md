@@ -90,8 +90,9 @@ Aqui eu deixo o próprio GitHub registrar o que venho mexendo recentemente. A li
 <!--START_SECTION:activity-->
 - 💻 **17 de set** — Atualizou código em [cgfrs/cgfrs](https://github.com/cgfrs/cgfrs)
 - 💻 **17 de set** — Atualizou código em [cgfrs/project-for-my-Job](https://github.com/cgfrs/project-for-my-Job)
-- 🌿 **17 de set** — Criou uma nova branch em [cgfrs/portifolio](https://github.com/cgfrs/portifolio)
+- 💻 **17 de set** — Atualizou código em [cgfrs/portifolio](https://github.com/cgfrs/portifolio)
 - 🌿 **17 de set** — Criou uma nova branch em [cgfrs/reppersonal](https://github.com/cgfrs/reppersonal)
+- 🌿 **17 de set** — Criou uma nova branch em [cgfrs/portifolio](https://github.com/cgfrs/portifolio)
 <!--END_SECTION:activity-->
 
 ---
