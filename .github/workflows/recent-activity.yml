@@ -10,6 +10,7 @@ on:
     paths:
       - "README.md"
       - ".github/workflows/recent-activity.yml"
+      - ".github/activity-trigger"
 
 permissions:
   contents: write
