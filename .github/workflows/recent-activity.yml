@@ -25,33 +25,42 @@ jobs:
       - name: Update recent GitHub activity
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.PROFILE_ACTIVITY_TOKEN || github.token }}
           script: |
             const fs = require('fs');
             const username = 'cgfrs';
 
-            const { data: events } = await github.rest.activity.listPublicEventsForUser({
-              username,
-              per_page: 20
-            });
+            // Repositórios privados que podem alimentar o perfil.
+            // O README mostra descrições públicas neutras, sem expor conteúdo privado.
+            const trackedRepos = [
+              { repo: 'Agente-Financeiro', label: 'Projeto de automação financeira', icon: '💰' },
+              { repo: 'Agente-de-Nutri-o', label: 'Projeto de dados e automação', icon: '📊' },
+              { repo: 'zerar-base-sankhya', label: 'Projeto Oracle / Sankhya', icon: '🗄️' }
+            ];
 
-            const items = [];
+            const candidates = [];
             const seen = new Set();
 
-            for (const event of events) {
-              if (items.length >= 6) break;
+            const fmtDate = (value) => new Intl.DateTimeFormat('pt-BR', {
+              day: '2-digit',
+              month: 'short',
+              timeZone: 'America/Belem'
+            }).format(new Date(value)).replace('.', '');
 
+            // Atividade pública normal do perfil.
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username,
+              per_page: 30
+            });
+
+            for (const event of events) {
               const repo = event.repo?.name;
               if (!repo) continue;
 
               const repoUrl = `https://github.com/${repo}`;
-              const date = new Intl.DateTimeFormat('pt-BR', {
-                day: '2-digit',
-                month: 'short',
-                timeZone: 'America/Belem'
-              }).format(new Date(event.created_at)).replace('.', '');
-
+              const date = fmtDate(event.created_at);
               let text = '';
-              const key = `${event.type}-${repo}`;
+              const key = `public-${event.type}-${repo}`;
 
               switch (event.type) {
                 case 'PushEvent':
@@ -66,36 +75,51 @@ jobs:
                   break;
                 case 'PullRequestEvent': {
                   const pr = event.payload?.pull_request;
-                  if (pr?.html_url) {
-                    text = `🔀 **${date}** — ${event.payload.action === 'opened' ? 'Abriu' : 'Atualizou'} um Pull Request em [${repo}](${pr.html_url})`;
-                  }
+                  if (pr?.html_url) text = `🔀 **${date}** — Atualizou um Pull Request em [${repo}](${pr.html_url})`;
                   break;
                 }
                 case 'IssuesEvent': {
                   const issue = event.payload?.issue;
-                  if (issue?.html_url) {
-                    text = `🧩 **${date}** — ${event.payload.action === 'opened' ? 'Abriu' : 'Atualizou'} uma issue em [${repo}](${issue.html_url})`;
-                  }
+                  if (issue?.html_url) text = `🧩 **${date}** — Atualizou uma issue em [${repo}](${issue.html_url})`;
                   break;
                 }
                 case 'ReleaseEvent':
                   text = `🚀 **${date}** — Publicou uma release em [${repo}](${repoUrl}/releases)`;
                   break;
-                case 'WatchEvent':
-                  text = `⭐ **${date}** — Marcou [${repo}](${repoUrl}) com uma estrela`;
-                  break;
-                case 'ForkEvent':
-                  text = `🍴 **${date}** — Criou um fork de [${repo}](${repoUrl})`;
-                  break;
               }
 
-              if (!text || seen.has(key)) continue;
-              seen.add(key);
-              items.push(`- ${text}`);
+              if (text && !seen.has(key)) {
+                seen.add(key);
+                candidates.push({ date: new Date(event.created_at), text });
+              }
             }
 
-            const fallback = '- 🔄 A atividade recente será atualizada automaticamente pelo GitHub Actions.';
-            const activity = items.length ? items.join('\n') : fallback;
+            // Atividade dos projetos privados autorizados.
+            // Para funcionar, crie o secret PROFILE_ACTIVITY_TOKEN com um token
+            // que tenha acesso somente de leitura aos repositórios privados acima.
+            for (const item of trackedRepos) {
+              try {
+                const { data: commits } = await github.rest.repos.listCommits({
+                  owner: username,
+                  repo: item.repo,
+                  per_page: 1
+                });
+                const commit = commits[0];
+                const when = commit?.commit?.committer?.date || commit?.commit?.author?.date;
+                if (!when) continue;
+
+                candidates.push({
+                  date: new Date(when),
+                  text: `${item.icon} **${fmtDate(when)}** — Evolução em **${item.label}**`
+                });
+              } catch (error) {
+                core.info(`Projeto ${item.repo} não acessível com o token atual; mantendo somente atividade pública.`);
+              }
+            }
+
+            candidates.sort((a, b) => b.date - a.date);
+            const activity = candidates.slice(0, 6).map(x => `- ${x.text}`).join('\n') ||
+              '- 🔄 A atividade recente será atualizada automaticamente pelo GitHub Actions.';
 
             const start = '<!--START_SECTION:activity-->';
             const end = '<!--END_SECTION:activity-->';
