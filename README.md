@@ -89,7 +89,7 @@ Aqui eu deixo o próprio GitHub registrar o que venho mexendo recentemente. A li
 
 <!--START_SECTION:activity-->
 - 📊 **06 de out** — Evolução em **Projeto de dados e automação**
-- 💰 **03 de out** — Evolução em **Projeto de automação financeira**
+- 💰 **06 de out** — Evolução em **Projeto de automação financeira**
 - 💻 **18 de set** — Atualizou código em [cgfrs/cgfrs](https://github.com/cgfrs/cgfrs)
 - 🗄️ **17 de set** — Evolução em **Projeto Oracle / Sankhya**
 - 💻 **17 de set** — Atualizou código em [cgfrs/project-for-my-Job](https://github.com/cgfrs/project-for-my-Job)
