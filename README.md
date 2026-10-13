@@ -88,8 +88,8 @@ Esse cuidado evita uma coisa que eu tento fugir sempre: **automatizar um process
 Aqui eu deixo o próprio GitHub registrar o que venho mexendo recentemente. A lista abaixo é atualizada automaticamente.
 
 <!--START_SECTION:activity-->
-- 📊 **12 de out** — Evolução em **Projeto de dados e automação**
-- 💰 **10 de out** — Evolução em **Projeto de automação financeira**
+- 💰 **13 de out** — Evolução em **Projeto de automação financeira**
+- 📊 **13 de out** — Evolução em **Projeto de dados e automação**
 - 💻 **08 de out** — Atualizou código em [cgfrs/Estudo](https://github.com/cgfrs/Estudo)
 - 🌿 **08 de out** — Criou uma nova branch em [cgfrs/Estudo](https://github.com/cgfrs/Estudo)
 - 🗄️ **17 de set** — Evolução em **Projeto Oracle / Sankhya**
